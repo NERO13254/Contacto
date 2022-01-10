@@ -1,0 +1,122 @@
+@media(max-width: 1500px){
+    .icon-menu{
+        display: flex;
+    }
+    .menu ul li {
+        display: none;
+    }
+}
+@media(max-width:909px){
+    .container-info-cover p{
+       font-size: 20px;
+       margin-bottom: 10px;
+    }
+    .ubicacion h1{
+        font-size: 20px;
+    }
+    .mapa{
+        display: block;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+    }
+}
+@media(max-width:500px){
+
+
+    body{
+        height: 84.7vh;
+    }
+    .header-content{
+        width: 80%;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .container-cover{
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        margin-left: 81px;
+    }
+
+    .container-info-cover p{
+       font-size: 13px;
+    }
+
+    .ubicacion {
+        width: 65%;
+        margin-top: -44px;
+        
+    }
+    .ubicacion h1 {
+        font-size: 14px;
+    }
+    .mapa {
+        margin-left: 22px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .numeros {
+        width: 100%;
+    }
+    .numeros h1 {
+        font-size: 17px;
+        margin-top: -30px;
+    }
+}
+@media(max-width:360px){
+    .container-info-cover{
+        text-align: center;
+        width: 95%;
+    }
+    .ubicacion{
+        width: 72%;
+        border: none;
+    }
+    .ubicacion h1 {
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .mapa{
+        width: 150px;
+        height: 150px;
+        margin-left: 30px;
+    }
+
+    .numeros{
+        font-size: 8px;
+        margin-top: 36px;
+        
+    }
+}
+@media(max-width: 320px){
+    .container-cover{
+        width: 70%;
+        margin-left: 55px;
+        margin-bottom: 10px;
+        height: 64px;
+    }
+    .container-info-cover h1 {
+        font-size: 20px;
+    }
+    .container-info-cover p {
+        margin-bottom: 1px;
+    }
+    .mapa{
+        margin-left: 21px;
+    }
+    .numeros{
+        margin-top: 5px;
+    }
+    .numeros h1 {
+        font-size: 13px;
+    }
+    .numero-de-telefono {
+        font-size: 13px;
+    }
+    .phone{
+        display: none;
+    }
+}
